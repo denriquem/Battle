@@ -19,6 +19,11 @@ class Battle < Sinatra::Base
     erb :play
   end
 
+  get '/attack_page' do
+    erb :attack_page
+  end
+
+
 
 
 

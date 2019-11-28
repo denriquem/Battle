@@ -109,3 +109,5 @@ require 'rspec'
 
 #tell Capybara about our app class
 Capybara.app = Battle
+
+require_relative 'features/web_helpers'
