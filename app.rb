@@ -1,8 +1,7 @@
 require 'sinatra/base'
-require 'player'
+require './lib/player'
 
 class Battle < Sinatra::Base
-  enable :sessions
   get '/' do
     'Hello Battle!'
     erb :index
