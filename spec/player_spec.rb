@@ -26,7 +26,7 @@ end
 
 describe "#receive_damage" do
   it "returns the reduced hit points of player after being attacked" do
-    expect{ jim.receive_damage }.to change{ jim.hit_points }.by {-10}
+    expect{ jim.receive_damage }.to change { jim.hit_points }.by -10
   end
 end
 
